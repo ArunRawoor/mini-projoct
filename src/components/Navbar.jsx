@@ -3,7 +3,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js'; // includes Popper, needed f
 function Navbar() {
   return (
     <>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <nav class="navbar navbar-expand-lg bg-success-subtle">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             Navbar
