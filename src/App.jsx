@@ -11,54 +11,15 @@ import Model from './components/Model';
 // import UserData from './components/UserData'
 import Home from './components/home';
 import About from './components/aboutUs';
-import UserData from './components/UserData';
-import NavBar from './components/NavBar';
-
-// import ComponentA from './components/ComponentA';
-import { BrowserRouter as Router, Routes, Route,  } from 'react-router-dom';
-import Footer from './components/Footer';
-
+import Navbar from './components/Navbar';
 function App() {
 
 
   return (
     <>
-  
-      <Router>
-
-          <NavBar /> 
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/user/:userId" element={<UserData />} />
-          <Route path="/Accordians" element={<Accordians />} />
-          <Route path="/Model" element={<Model />} />
-          <Route path="/form" element={<Form1 />} />
-
-        </Routes>
-       
-      </Router>
-       <Footer />
-      {/* <Home  path="/home"/>
-     <About /> */}
-      {/* <ClassComponentEx />
-      
-    
-     {/* <EventHandlers /> */}
-      {/* <Form1 /> */}
-
-      {/* <FunctionalCompoEx /> 
-
-     <UseEffects /> */}
-
-      {/* <UserData userId={10} /> */}
-
-      {/* <ComponentA /> */}
-
-
-      {/* <BootStrap /> */}
-      {/* <Accordians /> */}
-
+     <Navbar />
+     <Home />
+     <About />
     </>
 
   )
